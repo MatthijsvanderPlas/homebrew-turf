@@ -5,12 +5,12 @@ cask "turf" do
   url "https://github.com/MatthijsvanderPlas/turf-releases/releases/download/v#{version}/Turf-#{version}.zip"
   name "Turf"
   desc "Run many Claude sessions on one repo, side by side"
-  homepage "https://matthijsvanderplas.github.io/turf/"
+  homepage "https://github.com/MatthijsvanderPlas/turf-releases"
 
   # The app updates itself over Sparkle — see the private turf repo's README
   # "cutting a release" — so `brew upgrade --cask` intentionally does not fight it.
   auto_updates true
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Turf.app"
 
