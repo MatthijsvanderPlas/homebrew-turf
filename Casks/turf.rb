@@ -10,6 +10,7 @@ cask "turf" do
   # The app updates itself over Sparkle — see the private turf repo's README
   # "cutting a release" — so `brew upgrade --cask` intentionally does not fight it.
   auto_updates true
+  depends_on macos: ">= :sonoma"
 
   app "Turf.app"
 
