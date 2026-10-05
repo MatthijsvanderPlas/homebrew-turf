@@ -1,6 +1,6 @@
 cask "turf" do
-  version "1.12.2"
-  sha256 "e6c8c6908cee50a3a5fa1407ec992c993e6df23cfd69f09fe12863edbf171531"
+  version "1.13.0"
+  sha256 "660afc27f429aabf45f128470059bdc9b0d3706f013ca8117567d43e30dcc87f"
 
   url "https://github.com/MatthijsvanderPlas/turf-releases/releases/download/v#{version}/Turf-#{version}.zip"
   name "Turf"
